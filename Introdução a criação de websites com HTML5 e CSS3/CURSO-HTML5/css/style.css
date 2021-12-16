@@ -1,0 +1,98 @@
+body{
+    background: #f7f7ff;
+    font-family: verdana;
+   margin: auto;
+}
+.cabecalho{
+    background-image: url(https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    /* background: #000; */
+    text-align: center;
+}
+.photo{
+    border: 1px solid #505050;
+    border-radius: 50%;   
+    width: 19%;
+    margin: 20px 0 0 0;
+    /* padding: 0 0 10px 0; */
+    background-color: rgb(255, 122, 0);
+}
+#title, .subtitle, .post_title{
+    color: #505050;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 10px 0;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #505050;
+}
+
+.subtitle{
+    max-width: 900px;
+    margin: auto;
+    padding: 0 0 10px 0 ;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin: 15px 0;
+}
+
+.post{
+    /* background: #fff; */
+    padding: 15px;
+    border-top: 3px solid #505050;
+    margin-bottom: 15px;
+    /* border-radius: 60px; */
+    max-width: 900px;
+    margin: auto;
+    border-color: rgb(255, 122, 0);
+    
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image{
+    margin-bottom: 15px;
+    /* border-radius: 60px; */
+    width: 100%;
+}
+footer p{
+    color:  rgb(255, 122, 0);
+    background: #000;
+    margin: 0;
+    text-align: center;
+
+    padding: 25px 0;
+}
+
+.contact_list{
+    display: flex;
+    justify-content: center;
+    background: #000;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+
+    padding: 25px 0 0 0 ;
+}
+
+.contact_list li a{
+    margin-top: 50px;
+}
+.contact_list li{
+    padding: 20px 25px;
+}
