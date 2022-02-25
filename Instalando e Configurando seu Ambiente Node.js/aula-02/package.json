@@ -1,0 +1,15 @@
+{
+  "name": "primeira-aula",
+  "version": "1.0.0",
+  "description": "projeto para treinar e iniciar no node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main":  "node src/index.js"
+  },
+  "keywords": [
+    "javascript;node"
+  ],
+  "author": "Kaique Santos",
+  "license": "ISC"
+}
